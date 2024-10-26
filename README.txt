@@ -1,5 +1,6 @@
 LAUNCH FILE INSTRUCTIONS
 	(execute in main folder)
+	unzip mytest.zip into main folder (bag file)
 	docker build -t tntc .
 	docker run --mount type=bind,source=.,target=/ros/catkin_ws -it --net localros --env ROS_HOSTNAME=localhost --env ROS_MASTER_URI=http://localhost:11311 cs3891:test bash
 	source devel/setup.bash
