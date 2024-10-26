@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/ros/catkin_ws/src/tntc_controller/devel -DCMAKE_INSTALL_PREFIX=/ros/catkin_ws/src/tntc_controller/install -G Unix Makefiles

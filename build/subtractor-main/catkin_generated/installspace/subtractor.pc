@@ -1,0 +1,8 @@
+prefix=/ros/catkin_ws/install
+
+Name: subtractor
+Description: Description of subtractor
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

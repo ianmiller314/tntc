@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /ros/catkin_ws/src/tntc_controller/install/setup.sh

@@ -1,0 +1,8 @@
+prefix=/ros/catkin_ws/install
+
+Name: profproject
+Description: Description of profproject
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

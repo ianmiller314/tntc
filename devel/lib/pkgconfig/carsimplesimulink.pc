@@ -1,0 +1,8 @@
+prefix=/ros/catkin_ws/devel
+
+Name: carsimplesimulink
+Description: Description of carsimplesimulink
+Version: 1.0.0
+Cflags: -I/ros/catkin_ws/src/carsimplesimulink-main/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

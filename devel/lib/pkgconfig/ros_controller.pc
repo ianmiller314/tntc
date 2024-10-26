@@ -1,0 +1,8 @@
+prefix=/ros/catkin_ws/devel
+
+Name: ros_controller
+Description: Description of ros_controller
+Version: 1.0.0
+Cflags: -I/ros/catkin_ws/src/ros_controller/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

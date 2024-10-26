@@ -1,0 +1,2 @@
+carsimplesimulink-main:profproject-main:ros_controller:subtractor-main:tntc_controller
+-DCATKIN_DEVEL_PREFIX=/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/ros/catkin_ws/install -G Unix Makefiles
