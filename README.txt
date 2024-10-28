@@ -23,7 +23,7 @@ WINDOW 1 (MASTER)
 
 WINDOW 2 (MODEL)
 	(Run in HW3 folder)
-	docker run --mount type=bind,source=.,target=/ros/catkin_ws -it --net localros --env ROS_HOSTNAME=cs3891:test --env ROS_MASTER_URI=http://master:11311 cs3891:test bash
+	docker run --mount type=bind,source=.,target=/ros/catkin_ws -it --net localros --env ROS_HOSTNAME=tntc --env ROS_MASTER_URI=http://master:11311 tntc bash
 	catkin_make
 	./build_ros_model.sh ros_controller.tgz .
 	
@@ -32,7 +32,7 @@ WINDOW 2 (MODEL)
 	rosrun ros_controller ros_controller
 
 WINDOW 3 (RECORD)
-	docker run --mount type=bind,source=.,target=/ros/catkin_ws -it --net localros --env ROS_HOSTNAME=cs3891:test --env ROS_MASTER_URI=http://master:11311 cs3891:test bash
+	docker run --mount type=bind,source=.,target=/ros/catkin_ws -it --net localros --env ROS_HOSTNAME=tntc --env ROS_MASTER_URI=http://master:11311 tntc bash
 	rostopic list
 	rostopic echo [topic]
 	cd bagfiles
